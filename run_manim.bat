@@ -1,0 +1,1 @@
+python -m manim from_wjl/tutorial/6a_plots_2D.py 6a_plots_2D -pl
