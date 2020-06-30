@@ -9,7 +9,7 @@ class FourierOfSigma(FourierCirclesScene):
         "center_point": ORIGIN,
         "slow_factor": 0.1,
         "n_cycles": 1,
-        "tex": "\\pi",
+        "tex": "\\Sigma",
         "start_drawn": False,
         "max_circle_stroke_width": 1,
     }

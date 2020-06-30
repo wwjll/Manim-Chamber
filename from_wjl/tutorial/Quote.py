@@ -1,5 +1,4 @@
 '''
-   1.中文字体？
    2.get_corner(),获取角落位置，eg:get_corner(UP + LEFT)
    3.to_edge,相对边缘的位置
 '''

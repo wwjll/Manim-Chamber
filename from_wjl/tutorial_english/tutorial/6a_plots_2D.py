@@ -1,4 +1,5 @@
-from manimlib.imports import *
+from big_ol_pile_of_manim_imports import *
+
 
 class PlotGraph(GraphScene):
     CONFIG = {
@@ -31,6 +32,7 @@ class PlotGraph(GraphScene):
                                     x_min = 5, 
                                     x_max = 7
                                     )
+
         self.play(
             ShowCreation(graph),
             run_time = 2
@@ -38,8 +40,8 @@ class PlotGraph(GraphScene):
         self.wait()
 
 
-# def Range(in_val,end_val,step=1):
-#     return list(np.arange(in_val,end_val+step,step))
+def Range(in_val,end_val,step=1):
+    return list(np.arange(in_val,end_val+step,step))
 
 class Plot1(GraphScene):
     CONFIG = {
